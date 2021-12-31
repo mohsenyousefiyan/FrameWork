@@ -11,11 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Infra", "03.Infra", "{96
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.EndPoints", "04.EndPoints", "{46852952-3DAD-4271-82DD-2DEF9D88DB2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameWork.Utilities", "01.Utilities\FrameWork.Utilities\FrameWork.Utilities.csproj", "{04CBE58D-0743-408D-9354-D9B2AD23C342}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameWork.Utilities", "01.Utilities\FrameWork.Utilities\FrameWork.Utilities.csproj", "{04CBE58D-0743-408D-9354-D9B2AD23C342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameWork.Core.Domain", "02.Core\FrameWork.Core.Domain\FrameWork.Core.Domain.csproj", "{4F3E3D89-364F-430E-9743-7C864EF18507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameWork.Core.Domain", "02.Core\FrameWork.Core.Domain\FrameWork.Core.Domain.csproj", "{4F3E3D89-364F-430E-9743-7C864EF18507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameWork.EndPoints.WebApi", "04.EndPoints\FrameWork.EndPoints.WebApi\FrameWork.EndPoints.WebApi.csproj", "{82F51206-1023-483D-BABA-7F7A80E93615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameWork.EndPoints.WebApi", "04.EndPoints\FrameWork.EndPoints.WebApi\FrameWork.EndPoints.WebApi.csproj", "{82F51206-1023-483D-BABA-7F7A80E93615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameWork.Infra.Resources", "03 Infra\FrameWork.Infra.Resources\FrameWork.Infra.Resources.csproj", "{41518B31-8639-433E-9520-8F9979565144}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{82F51206-1023-483D-BABA-7F7A80E93615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82F51206-1023-483D-BABA-7F7A80E93615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82F51206-1023-483D-BABA-7F7A80E93615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41518B31-8639-433E-9520-8F9979565144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41518B31-8639-433E-9520-8F9979565144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41518B31-8639-433E-9520-8F9979565144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41518B31-8639-433E-9520-8F9979565144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{04CBE58D-0743-408D-9354-D9B2AD23C342} = {6A93DE0D-52B6-4621-BE85-45B0FCF9C4CF}
 		{4F3E3D89-364F-430E-9743-7C864EF18507} = {E7FA48B3-83E3-45AD-8554-8D4C77E7BE4D}
 		{82F51206-1023-483D-BABA-7F7A80E93615} = {46852952-3DAD-4271-82DD-2DEF9D88DB2B}
+		{41518B31-8639-433E-9520-8F9979565144} = {96582EA0-CB99-4466-8132-F1ADB773CEF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AADF9311-3E63-4FFC-828F-9CB0555D1663}

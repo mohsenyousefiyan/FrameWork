@@ -1,11 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Version>1.0.0</Version>
+	<IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Utilities\FrameWork.Utilities\FrameWork.Utilities.csproj" />
+    <ProjectReference Include="..\..\02.Core\FrameWork.Core.Domain\FrameWork.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\03 Infra\FrameWork.Infra.Resources\FrameWork.Infra.Resources.csproj" />
   </ItemGroup>
 
 </Project>
