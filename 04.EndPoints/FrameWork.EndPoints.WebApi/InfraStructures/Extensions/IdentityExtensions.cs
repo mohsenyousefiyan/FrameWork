@@ -19,17 +19,25 @@ namespace FrameWork.EndPoints.WebApi.InfraStructures.Extensions
             return claimsIdentity?.FindFirstValue(claimType);
         }
 
-        public static Guid GetUserId(this IIdentity identity)
+        public static int GetUserId(this IIdentity identity)
         {
             if (identity != null)
             {
                 //var id = identity.FindFirstValue(ClaimTypes.NameIdentifier);
                 var id = identity.FindFirstValue(IdentityClaimsResource.UserIdKeyName);
-                if (!string.IsNullOrEmpty(id))
-                    return Guid.Parse(id);
+                try
+                {
+                    return Convert.ToInt32(id);
+                }
+                catch
+                {
+
+                }
             }
-            return Guid.Empty;
+            return -1;
         }
+
+
 
         public static string GetUserDeviceId(this IIdentity identity)
         {
